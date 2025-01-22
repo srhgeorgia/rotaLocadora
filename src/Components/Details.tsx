@@ -57,7 +57,7 @@ const Details = ({ open, onCancel, veiculo }: DetailsProps) => {
             <Typography className={styles.typography}>
               <div className={styles.placaContainer}>
                 <div className={styles.imgVector}>
-                  <img src="public/assets/Vector.png" alt="carro" />
+                  <img src="/assets/Vector.png" alt="carro" />
                 </div>
                 <div className={styles.placaContent}>
                   <span className={styles.placa}>{veiculo.placa}</span>
