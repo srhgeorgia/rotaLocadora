@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  height: 58px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  height: 47px;
+  width: 43rem;
+}
+
+.filterButtons {
+  display: flex;
+  border: #dfdfdf 1px solid;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.separator {
+  width: 0.5px;
+  height: 39px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007df0;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 14px;
+  height: 38px;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #007df0;
+}
+
+.hidden {
+  display: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
